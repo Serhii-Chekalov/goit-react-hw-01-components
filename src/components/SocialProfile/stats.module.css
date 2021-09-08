@@ -1,0 +1,23 @@
+.stats {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0px;
+}
+
+.statsItem {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  color: rgb(97, 93, 93);
+}
+
+.quantity {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 3px;
+}
