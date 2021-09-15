@@ -1,0 +1,38 @@
+.statistics {
+  display: inline-block;
+  padding: 0;
+  border: 1px solid #ccc;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: auto;
+}
+
+.stats {
+  padding: 0;
+}
+
+.title {
+  color: rgb(72, 72, 72);
+  font-size: 25px;
+  text-align: center;
+}
+
+.item {
+  display: inline-block;
+  width: 40px;
+  padding: 20px;
+}
+
+.label {
+  color: rgb(256, 256, 256);
+  display: block;
+  font-size: 18px;
+  text-align: center;
+}
+
+.percentage {
+  color: rgb(256, 256, 256);
+  display: block;
+  font-size: 22px;
+  text-align: center;
+}

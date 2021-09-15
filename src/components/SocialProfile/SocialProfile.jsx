@@ -8,7 +8,7 @@ export const SocialProfile = ({ avatar, name, tag, location, stats }) => {
       <div className={styled.description}>
         <img src={avatar} alt="Аватар пользователя" className={styled.avatar} />
         <p className={styled.name}>{name}</p>
-        <p className={styled.tag}>{tag}</p>
+        <p className={styled.tag}>@{tag}</p>
         <p className={styled.location}>{location}</p>
       </div>
       <ProfileStats stats={stats} />
