@@ -1,8 +1,8 @@
 import styled from './App.module.css';
-import user from './components/SocialProfile/user.json';
-import statisticalData from './components/Statistics/statistical-data.json';
-import friends from './components/FriendList/friends.json';
-import transactions from './components/TransactionHistory/transactions.json';
+import user from './json/user.json';
+import statisticalData from './json/statistical-data.json';
+import friends from './json/friends.json';
+import transactions from './json/transactions.json';
 import { SocialProfile } from './components/SocialProfile/SocialProfile.jsx';
 import { Statistics } from './components/Statistics/Statistics.jsx';
 import { FriendList } from './components/FriendList/FriendList.jsx';

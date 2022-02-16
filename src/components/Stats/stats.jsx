@@ -1,4 +1,5 @@
 import styled from './stats.module.css';
+import PropTypes from 'prop-types';
 
 const ProfileStats = ({ stats }) => {
   return (
@@ -20,3 +21,9 @@ const ProfileStats = ({ stats }) => {
 };
 
 export default ProfileStats;
+
+ProfileStats.propTypes = {
+  followers: PropTypes.number.isRequired,
+  views: PropTypes.number.isRequired,
+  likes: PropTypes.number.isRequired,
+};
